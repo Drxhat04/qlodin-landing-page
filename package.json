@@ -1,0 +1,31 @@
+{
+  "name": "qlodin-landing",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tsparticles/engine": "^3.8.1",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.8.1",
+    "classnames": "2.5.1",
+    "next": "15.3.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-tsparticles": "2.12.2",
+    "tsparticles-engine": "^2.12.0",
+    "tsparticles-slim": "^2.12.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.15.23",
+    "@types/react": "^19.1.6",
+    "@types/react-dom": "^19.1.5",
+    "autoprefixer": "10.4.17",
+    "postcss": "8.4.31",
+    "postcss-loader": "^8.1.1",
+    "tailwindcss": "3.4.4",
+    "typescript": "5.4.4"
+  }
+}

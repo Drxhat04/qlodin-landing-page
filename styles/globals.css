@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base font smoothing & scroll experience */
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Refined body settings */
+body {
+  @apply font-sans text-white bg-gradient-to-b from-white via-[#0f0128] to-white;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #8B5CF6; /* purple thumb */
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Logo frost-ring effect */
+.frosted-logo {
+  @apply rounded-full bg-white/30 backdrop-blur-md p-2 shadow-[0_0_0_2px_#8B5CF6];
+}
+
+/* Chrome gold text */
+.gold-chrome-text {
+  background-image: url('/textures/gold-chrome.jpg'); /* make sure to include this image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
